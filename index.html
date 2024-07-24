@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<!-- Code by Keyframe Effects -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Autoplay Slider Using HTML CSS & Swiper JS</title>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css' />
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+</head>
+<body>
+
+<div class="cloud-swiper">
+	<div class="swiper-container">
+		<!-- swiper slides -->
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<!-- Ships img -->
+				<img src="img/brigantine.png" />
+				<!-- Ships Name -->
+				<h2>Brigantine</h2>
+			</div>
+			
+			<div class="swiper-slide">
+				<img src="img/frigate.png" />
+				<h2>Frigate</h2>
+			</div>
+			
+			<div class="swiper-slide">
+				<img src="img/galleon.png" />
+				<h2>Galleon</h2>
+			</div>
+			
+			<div class="swiper-slide">
+				<img src="img/schooner.png" />
+				<h2>Schooner</h2>
+			</div>
+			
+			<div class="swiper-slide">
+				<img src="img/sloop.png" />
+				<h2>Sloop</h2>
+			</div>
+		</div>
+		<!-- !swiper slides -->
+		
+		<!-- next / prev arrows -->
+		<div class="swiper-button-next">⮞</div>
+		<div class="swiper-button-prev">⮜</div>
+		<!-- !next / prev arrows -->
+		
+		<!-- pagination dots -->
+		<div class="swiper-pagination"></div>
+		<!-- !pagination dots -->
+	</div>
+	
+	<!-- Background Videos like:- Storm, Thunder, Ice Rain, Meteor Rain -->
+	<div class="backVideo">
+		<video src="videos/Storm.mp4" autoplay="" muted="" loop="" class="video-active" style="visibility: visible;"></video>
+		<video src="videos/IceRain.mp4" muted="" loop="" class="video-hidden" style="visibility: visible;"></video>
+		<video src="videos/MeteorRain.mp4" muted="" loop="" class="video-hidden" style="visibility: visible;"></video>
+	</div>
+	<!-- !Background Videos -->
+	
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
